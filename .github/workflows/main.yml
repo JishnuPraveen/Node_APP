@@ -2,8 +2,8 @@ name: Name Workflow
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+      
 
 jobs:
   name:
@@ -11,3 +11,4 @@ jobs:
     steps:
       - name: Checkout code
         run: echo "Hello, World!"
+        
